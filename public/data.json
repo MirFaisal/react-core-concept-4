@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "641e1101d9ed2bc08b1fa5eb",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "green",
+    "name": "Vivian Hutchinson",
+    "gender": "female",
+    "company": "COSMETEX",
+    "email": "vivianhutchinson@cosmetex.com",
+    "phone": "+1 (954) 532-2630",
+    "price": 200
+  },
+  {
+    "_id": "641e1101f09f753bc14a440a",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "Karina Dickson",
+    "gender": "female",
+    "company": "GLASSTEP",
+    "email": "karinadickson@glasstep.com",
+    "phone": "+1 (823) 596-3445",
+    "price": 300
+  },
+  {
+    "_id": "641e1101a09ecacc0c80c30e",
+    "picture": "http://placehold.it/32x32",
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Evangeline Whitney",
+    "gender": "female",
+    "company": "ZYTREX",
+    "email": "evangelinewhitney@zytrex.com",
+    "phone": "+1 (991) 412-2219",
+    "price": 400
+  },
+  {
+    "_id": "641e1101e484a318780e60f7",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Dina Haney",
+    "gender": "female",
+    "company": "SCENTRIC",
+    "email": "dinahaney@scentric.com",
+    "phone": "+1 (903) 556-3721",
+    "price": 500
+  },
+  {
+    "_id": "641e1101163152846bb26970",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "blue",
+    "name": "Jensen Sweeney",
+    "gender": "male",
+    "company": "QUONATA",
+    "email": "jensensweeney@quonata.com",
+    "phone": "+1 (860) 503-2816",
+    "price": 600
+  },
+  {
+    "_id": "641e11014ef2fc603bdb381d",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Loraine Moran",
+    "gender": "female",
+    "company": "ROCKABYE",
+    "email": "lorainemoran@rockabye.com",
+    "phone": "+1 (884) 551-2161",
+    "price": 700
+  },
+  {
+    "_id": "641e1101eb5d174171147dd0",
+    "picture": "http://placehold.it/32x32",
+    "age": 29,
+    "eyeColor": "brown",
+    "name": "Pat Kennedy",
+    "gender": "female",
+    "company": "MULTRON",
+    "email": "patkennedy@multron.com",
+    "phone": "+1 (999) 549-3114",
+    "price": 280
+  }
+]
