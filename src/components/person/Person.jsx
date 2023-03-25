@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { setData } from "../../utilities/localDB";
+import { removeFromCart, setData } from "../../utilities/localDB";
 import "./Person.css";
 
 const Person = () => {
@@ -30,6 +30,13 @@ const Person = () => {
               }}
             >
               Add to Cart
+            </button>
+            <button
+              onClick={() => {
+                removeFromCart(person._id);
+              }}
+            >
+              Remove from cart
             </button>
           </div>
         );
