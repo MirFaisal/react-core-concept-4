@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { removeFromCart, setData } from "../../utilities/localDB";
+import { getTotal, removeFromCart, setData } from "../../utilities/localDB";
 import "./Person.css";
 
 const Person = () => {
@@ -14,9 +14,11 @@ const Person = () => {
   const addToCart = (id) => {
     setData(id);
   };
-
+  //   get total
+  const totalPrice = getTotal(persons);
   return (
     <div>
+      <h2>You need- "{totalPrice}" Tk to buy all products</h2>
       {persons.map((person) => {
         return (
           <div key={person._id} className="container">

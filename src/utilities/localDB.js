@@ -45,4 +45,11 @@ const removeFromCart = (id) => {
   }
 };
 
-export { removeFromCart, setData };
+// total price
+const getTotalPrice = (product) => {
+  const productPriceReduce = (prv, curr) => prv + curr.price;
+  const total = product.reduce(productPriceReduce, 0);
+  return total;
+};
+
+export { getTotalPrice as getTotal, removeFromCart, setData };
